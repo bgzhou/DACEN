@@ -1,4 +1,4 @@
-# [TWC] Pay Less But Get More: A Dual-Attention-based Channel Estimation Network for Massive MIMO Systems with Low-Density Pilots
+# [TWC] Pay Less But Get More: A Dual-Attention-based Channel Estimation Network (DACEN) for Massive MIMO Systems with Low-Density Pilots
 This is the official implementation of **[Pay Less But Get More: A Dual-Attention-based Channel Estimation Network for Massive MIMO Systems with Low-Density Pilots](https://ieeexplore.ieee.org/document/10315065)**, which has been accepted by **IEEE Transactions on Wireless Communications**.
 
 ## Dataset
