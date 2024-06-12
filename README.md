@@ -1,5 +1,5 @@
 # [TWC] Pay Less But Get More: A Dual-Attention-based Channel Estimation Network for Massive MIMO Systems with Low-Density Pilots
-This is the official implementation of **[Pay Less But Get More: A Dual-Attention-based Channel Estimation Network for Massive MIMO Systems with Low-Density Pilots](https://ieeexplore.ieee.org/document/10315065)**, which has been accepted by **IEEE Transactions on Wireless Communications**.
+This is the official implementation of **[Pay Less But Get More: A Dual-Attention-based Channel Estimation Network for Massive MIMO Systems with Low-Density Pilots](https://ieeexplore.ieee.org/document/10315065)**, which has been published by **IEEE Transactions on Wireless Communications**.
 
 To reap the promising benefits of massive multiple-input multiple-output (MIMO) systems, accurate channel state information (CSI) is required through channel estimation. However, due to the complicated wireless propagation environment and large-scale antenna arrays, precise channel estimation for massive MIMO systems is significantly challenging and costs an enormous training overhead. Considerable time-frequency resources are consumed to acquire sufficient accuracy of CSI, which thus severely degrades systems' spectral and energy efficiencies. In this paper, we propose a **dual-attention-based channel estimation network (DACEN)** to realize accurate channel estimation via low-density pilots, by jointly learning the spatial-temporal domain features of massive MIMO channels with the temporal attention module and the spatial attention module. To further improve the estimation accuracy, we propose a parameter-instance transfer learning approach to transfer the channel knowledge learned from the high-density pilots pre-acquired during the training dataset collection period. Experimental results reveal that the proposed DACEN-based method achieves better channel estimation performance than the existing methods under various pilot-density settings and signal-to-noise ratios. Additionally, with the proposed parameter-instance transfer learning approach, the DACEN-based method achieves additional performance gain, thereby further demonstrating the effectiveness and superiority of the proposed method.
 
@@ -18,13 +18,15 @@ Simulation dataset generated with the 3GPP CDL channel model using the [Matlab 5
 ## Citation
 If you use this code for your research, please cite our paper:
 ```
-@article{zhou2023pay,
+@article{zhou2024pay,
   title = {Pay Less but Get More: A Dual-Attention-Based Channel Estimation Network for Massive {{MIMO}} Systems with Low-Density Pilots},
   author = {Zhou, Binggui and Yang, Xi and Ma, Shaodan and Gao, Feifei and Yang, Guanghua},
-  year = {2023},
   journal = {IEEE Transactions on Wireless Communications},
-  pages = {1--1},
-  issn = {1558-2248},
+  year={2024},
+  month=jun,
+  volume={23},
+  number={6},
+  pages={6061-6076},
   doi = {10.1109/TWC.2023.3329945}
 }
 ```
