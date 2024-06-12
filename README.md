@@ -22,11 +22,11 @@ If you use this code for your research, please cite our paper:
   title = {Pay Less but Get More: A Dual-Attention-Based Channel Estimation Network for Massive {{MIMO}} Systems with Low-Density Pilots},
   author = {Zhou, Binggui and Yang, Xi and Ma, Shaodan and Gao, Feifei and Yang, Guanghua},
   journal = {IEEE Transactions on Wireless Communications},
-  year={2024},
-  month=jun,
-  volume={23},
-  number={6},
-  pages={6061-6076},
+  year = {2024},
+  month = jun,
+  volume = {23},
+  number = {6},
+  pages = {6061-6076},
   doi = {10.1109/TWC.2023.3329945}
 }
 ```
